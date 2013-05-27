@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="com.jedruch.pawcik.eclipse.fileNameQuickAssist"
+         name="Filename Completition"
+         point="org.eclipse.jdt.ui.javaCompletionProposalComputer">
+      <javaCompletionProposalComputer
+            activate="true"
+            categoryId="com.jedruch.pawcik.eclipse.fileNameQuickAssist"
+            class="com.jedruch.pawcik.eclipse.filecompletion.FileNameProposalComputer">
+         <partition
+               type="__dftl_partition_content_type">
+         </partition>
+         <partition
+               type="__java_javadoc">
+         </partition>
+         <partition
+               type="__java_singleline_comment">
+         </partition>
+         <partition
+               type="__java_multiline_comment">
+         </partition>
+      </javaCompletionProposalComputer>
+   </extension>
+   <extension
+         id="com.jedruch.pawcik.eclipse.fileNameQuickAssist"
+         name="Filename Completition"
+         point="org.eclipse.jdt.ui.javaCompletionProposalComputer">
+      <proposalCategory></proposalCategory>
+   </extension>
+
+</plugin>

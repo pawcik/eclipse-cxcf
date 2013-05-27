@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FileCompletion
+Bundle-SymbolicName: com.jedruch.pawcik.eclipse.fileCompletion;singleton:=true
+Bundle-Version: 0.0.0.qualifier
+Bundle-Activator: com.jedruch.pawcik.eclipse.filecompletion.Activator
+Bundle-Vendor: JEDRUCH
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.ui,
+ org.eclipse.jface.text;bundle-version="3.7.1",
+ org.eclipse.core.resources;bundle-version="3.7.100"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
